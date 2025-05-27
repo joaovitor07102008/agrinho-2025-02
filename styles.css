@@ -747,3 +747,64 @@ a:hover {
     gap: 1rem;
   }
 }
+/* RESPONSIVIDADE ADICIONAL PARA CELULARES */
+@media (max-width: 768px) {
+  .inicio-fundo {
+    flex-direction: column;
+    text-align: center;
+  }
+  .inicio-fundo img {
+    max-width: 100%;
+    height: auto;
+  }
+  .esquerda-conteudo {
+    position: static !important;
+    margin-top: 1rem;
+  }
+  .highlight-box {
+    width: 100%;
+    padding: 1rem;
+  }
+  nav.container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #acessibilidade {
+    margin-top: 1rem;
+  }
+  .secao-tropicalia .container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .secao-tropicalia img {
+    margin-bottom: 1rem;
+    max-width: 80%;
+  }
+  #galeria .row {
+    flex-direction: column;
+  }
+  #galeria .col-md-6 {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .linha-vertical {
+    display: none;
+  }
+  .contato-quadro {
+    padding: 1rem;
+  }
+  .input-contato, .textarea-contato {
+    width: 100%;
+  }
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+  .footer-links {
+    flex-direction: column;
+  }
+  .footer-social {
+    margin-top: 1rem;
+  }
+}
